@@ -21,3 +21,53 @@
 .App-link {
   color: #61dafb;
 }
+
+.input-box {
+  width: 300px;
+  height: 250px;
+  background-color: white;
+  color: black;
+}
+
+.input-box h1 {
+  font-size: 18px;
+}
+
+.input-box .status {
+  font-size: 12px;
+}
+
+.input-box .success {
+  color: rgb(0, 187, 0);
+}
+
+.input-box .error {
+  color: rgb(254, 0, 0);
+}
+
+.input-box form input {
+  width: 70%;
+  margin: auto;
+  outline: none;
+  margin: 10px;
+}
+
+.input-box form #name-input {
+  border: 1px solid rgb(210, 210, 210);
+  padding: 6px;
+}
+
+.input-box form button {
+  border: 1px solid rgb(210, 210, 210);
+  padding: 6px;
+  width: 70%;
+  margin: auto;
+  margin-top: 25px;
+  cursor: pointer;
+  background-color: rgb(228, 228, 228);
+  transition: background-color .5s;
+}
+
+.input-box form button:hover {
+  background-color: rgb(220, 220, 220);
+}
